@@ -1,0 +1,32 @@
+{
+    "name": "ronappleton/laravel-dot",
+    "description": "Set and get array values via dot notation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ron Appleton",
+            "email": "ron.appleton@gmail.com"
+        }
+    ],
+    "require": {
+        "ronappleton/php-dot": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RonAppleton\\LaravelDot\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RonAppleton\\LaravelDot\\ServiceProvider"
+            ],
+            "aliases": {
+                "Dot": "RonAppleton\\LaravelDot\\Facade\\Dot"
+            }
+        }
+    }
+}

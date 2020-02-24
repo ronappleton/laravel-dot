@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d0f11477a74caa0c3bd24d3f0ba9a0e9",
+    "packages": [
+        {
+            "name": "ronappleton/php-dot",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ronappleton/php-dot.git",
+                "reference": "d3d1268a01d844a8533c9ca65bf4584a671e818d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ronappleton/php-dot/zipball/d3d1268a01d844a8533c9ca65bf4584a671e818d",
+                "reference": "d3d1268a01d844a8533c9ca65bf4584a671e818d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RonAppleton\\Dot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ron Appleton",
+                    "email": "ron.appleton@gmail.com"
+                }
+            ],
+            "description": "Set and get array values via dot notation.",
+            "time": "2020-02-24T17:42:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
